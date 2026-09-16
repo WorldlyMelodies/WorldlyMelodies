@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Worldly Melodies | Music, Hope & Connection</title>
+  <meta name="description" content="Worldly Melodies brings music, hope, and connection to our community, with a special focus on seniors and underserved communities.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Worldly Melodies home">
+    <span class="brand-mark">♪</span>
+    <span><strong>WORLDLY MELODIES</strong><small>Bringing Music, Hope, and Connection to Our Community</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#what-we-do">What We Do</a>
+    <a href="#mission">Our Mission</a>
+    <a href="#music">Music & Performances</a>
+    <a href="#community">Community</a>
+    <a class="nav-donate" href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <img src="assets/hero.jpg" alt="A diverse live band performing for smiling seniors">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">MUSIC • HOPE • CONNECTION</p>
+    <h1>WORLDLY<br>MELODIES</h1>
+    <p class="tagline">Bringing Music, Hope, and Connection to Our Community.</p>
+    <a class="button" href="#donate">♥ &nbsp; DONATE →</a>
+  </div>
+</section>
+
+<section id="about" class="intro">
+  <p class="eyebrow">WELCOME</p>
+  <h2>Music belongs to everyone.</h2>
+  <p>Worldly Melodies is a new nonprofit organization built around one simple idea: music can create joy, dignity, belonging, and connection at every stage of life.</p>
+</section>
+
+<section id="mission" class="mission">
+  <p class="eyebrow">OUR MISSION</p>
+  <h2>Music has the power to heal, inspire, and bring people together.</h2>
+  <p>We created Worldly Melodies as a nonprofit organization with one simple mission: to make music accessible to everyone, especially underserved communities, seniors, and individuals who may not otherwise have the opportunity to experience music or develop their talents.</p>
+  <p>Through music, we hope to create moments of joy, connection, hope, and belonging within our community.</p>
+</section>
+
+<section id="what-we-do" class="features">
+  <div><span>♫</span><h3>Music for Everyone</h3><p>Because music belongs to all.</p></div>
+  <div><span>♥</span><h3>Seniors & Elder-Care Communities</h3><p>Bringing joy and connection to those who need it most.</p></div>
+  <div><span>●●●</span><h3>Underserved Communities</h3><p>Reaching people with limited access to music and the arts.</p></div>
+  <div><span>★</span><h3>Develop Musical Talents</h3><p>Creating opportunities to learn, grow, and shine.</p></div>
+  <div><span>↗</span><h3>Make a Difference</h3><p>Your support can help bring music to more lives.</p></div>
+</section>
+
+<section id="music" class="section">
+  <p class="eyebrow">MUSIC & PERFORMANCES</p>
+  <h2>Live music. Real connection.</h2>
+  <p>We envision bringing diverse musicians and performers into community spaces where music can be shared, enjoyed, and experienced together.</p>
+  <div class="gallery">
+    <figure><img src="assets/gallery-1.jpg" alt="Intergenerational music activity"><figcaption>Music Builds Generations</figcaption></figure>
+    <figure><img src="assets/gallery-2.jpg" alt="Diverse band performing for a community"><figcaption>Live Music, Real Impact</figcaption></figure>
+    <figure><img src="assets/gallery-3.jpg" alt="Senior enjoying music with a younger musician"><figcaption>Connection Brings Joy</figcaption></figure>
+    <figure><img src="assets/gallery-4.jpg" alt="Diverse seniors enjoying a community performance"><figcaption>Stronger Communities</figcaption></figure>
+  </div>
+</section>
+
+<section id="community" class="community">
+  <div>
+    <p class="eyebrow">OUR COMMUNITY</p>
+    <h2>Every song can create a moment of connection.</h2>
+    <p>We welcome people of different ages, backgrounds, cultures, and musical experiences. Our goal is to create inclusive spaces where people can listen, participate, learn, and share.</p>
+  </div>
+</section>
+
+<section id="donate" class="donate">
+  <p class="eyebrow">SUPPORT WORLDLY MELODIES</p>
+  <h2>Together, we can make a difference.</h2>
+  <p>Your support will help us bring music and meaningful connection to more people in our community.</p>
+  <!-- Replace # below with your PayPal donation link when ready. -->
+  <a class="button" href="#" onclick="alert('The PayPal donation link will be connected here.'); return false;">♥ &nbsp; DONATE →</a>
+</section>
+
+<section id="contact" class="contact">
+  <p class="eyebrow">CONTACT</p>
+  <h2>We'd love to hear from you.</h2>
+  <p>More contact information will be added here as Worldly Melodies grows.</p>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand">WORLDLY MELODIES</div>
+  <p>Bringing Music, Hope, and Connection to Our Community.</p>
+  <small>© 2026 Worldly Melodies. All rights reserved.</small>
+</footer>
+
+<script>
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('nav');
+toggle.addEventListener('click', () => nav.classList.toggle('open'));
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+</script>
+</body>
+</html>
